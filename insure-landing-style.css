@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+}
+@font-face {
+    font-family: karla;
+    src: url(./Karla-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: DM_Serif_Display;
+    src: url(./DMSerifDisplay-Regular.ttf);
+}
+body {
+    font-family: karla;
+}
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: hsl(0, 0%, 100%);
+    opacity: 90%;
+    height: 70px;
+    width: 100%;
+    z-index: 100; 
+}
+nav li {
+    position: relative;
+    top: 25px;
+    display: inline;
+    color: hsl(216, 30%, 68%);
+    font-weight: 700;
+    margin-left: 50px;
+    cursor: pointer;
+}
+nav img {
+    position: relative;
+    top: 30px;
+    margin-left: 70px;
+    margin-right: 430px;
+}
+.plan1 {
+    color: hsl(256, 26%, 20%);
+    border: 3px solid hsl(256, 26%, 20%);
+    padding: 5px 10px;
+}
+.plan1:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(256, 26%, 20%);
+    cursor: pointer;
+}
+.human {
+    position: absolute;
+    top: 70px;
+    width: 1270px;
+    height: 500px;
+    background-color: hsl(256, 26%, 20%);
+    padding-left: 120px;
+    color: hsl(0, 0%, 100%);
+}
+.right {
+    position: absolute;
+    right: 0px;
+    width: 400px;
+    height: 370px;
+    z-index: 2;
+}
+.left {
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+.human h2 {
+    position: absolute;
+    top: 70px;
+    border-top: 2px solid white;
+}
+.human h1 {
+    position: absolute;
+    top: 120px;
+    font-family: DM_Serif_Display;
+    font-weight: 400;
+    font-size: 50px;
+}
+.human span {
+    position: absolute;
+    top: 270px;
+    line-height: 30px;
+}
+.human div {
+    position: absolute;
+    top: 400px;
+    background-color: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: 3px solid hsl(0, 0%, 100%);
+    padding: 5px 10px;
+    z-index: 1;
+    font-weight: 700;
+}
+.human div:hover {
+    color: hsl(256, 26%, 20%);
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.intro-img {
+    position: absolute;
+    top: 120px;
+    z-index: 1;
+    left: 700px;
+    height: 600px;
+}
+.diff {
+    position: absolute;
+    top: 800px;
+    left: 120px;
+}
+.diff h2 {
+    position: absolute;
+    top: 70px;
+    border-top: 2px solid hsl(216, 30%, 68%);
+}
+.af  {
+    position: relative;
+    top: 120px;
+    font-family: DM_Serif_Display;
+    font-weight: 400;
+    font-size: 50px;
+    color: hsl(256, 26%, 20%);
+}
+.diff div {
+    position: relative;
+    top: 190px;
+    display: inline-block;
+    margin-right: 50px;
+}
+.snappy h1 {
+    font-family: DM_Serif_Display;
+    color: hsl(256, 26%, 20%);
+    margin-top: 50px;
+}
+.snappy span {
+    position: relative;
+    top: 20px;
+    line-height: 25px;
+    color: hsl(216, 30%, 68%);
+}
+.afford h1 {
+    font-family: DM_Serif_Display;
+    color: hsl(256, 26%, 20%);
+    margin-top: 50px;
+}
+.afford span {
+    position: relative;
+    top: 20px;
+    line-height: 25px;
+    color: hsl(216, 30%, 68%);
+}
+.people h1 {
+    font-family: DM_Serif_Display;
+    color: hsl(256, 26%, 20%);
+    margin-top: 50px;
+}
+.people span {
+    position: relative;
+    top: 20px;
+    line-height: 25px;
+    color: hsl(216, 30%, 68%);
+}
+.find {
+    position: absolute;
+    top: 1500px;
+    margin-left: 120px;
+    width: 1130px;
+    height: 200px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(256, 26%, 20%);
+    background-image: url(./images/bg-pattern-intro-right-desktop.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.find h1 {
+    position: absolute;
+    top: 40px;
+    left: 170px;
+    font-family: DM_Serif_Display;
+    font-weight: 400;
+    font-size: 50px;
+}
+.find div {
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    background-color: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: 3px solid hsl(0, 0%, 100%);
+    padding: 5px 10px;
+    z-index: 1;
+    font-weight: 700;
+}
+.find div:hover {
+    color: hsl(256, 26%, 20%);
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.foot {
+    position: absolute;
+    top: 2000px;
+    width: 1390px;
+    height: 400px;
+    background-color: hsl(0, 0%, 98%);
+    background-image: url(./images/bg-pattern-footer-desktop.svg);
+    background-position-y: top;
+    background-position-x: left;
+    background-repeat: no-repeat;
+}
+.top {
+    position: absolute;
+    left: 120px;
+    top: 70px;
+    border-bottom: 1px solid hsl(216, 30%, 68%);
+    padding-bottom: 20px;
+}
+.top li {
+    display: inline;
+    margin-right: 10px;
+}
+.top li:hover {
+    fill: hsl(256, 26%, 20%);
+    cursor: pointer;
+}
+.img {
+    margin-left: 0px;
+    margin-right: 800px;
+}
+.bottom {
+    position: absolute;
+    top: 200px;
+    left: 120px;
+}
+.bottom div {
+    display: inline-block;
+}
+.bottom li {
+    text-transform: uppercase;
+    line-height: 25px;
+    color: hsl(256, 26%, 20%);
+    font-weight: 700;
+}
+.bottom li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.head {
+    color: hsl(216, 30%, 68%);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.our {
+    margin-right: 90px;
+}
+.help {
+    margin-right: 120px;
+}
+.Contact {
+    position: relative;
+    top: -25px;
+    margin-right: 190px;
+}
+.Others {
+    position: relative;
+    top: -25px;
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+}
